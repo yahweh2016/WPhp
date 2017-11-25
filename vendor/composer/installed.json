@@ -745,5 +745,55 @@
             "orm",
             "sql"
         ]
+    },
+    {
+        "name": "codingbean/macaw",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/noahbuscher/Macaw.git",
+            "reference": "5f9a3cc25294b1e7880fc6d7d2cb6879519ffead"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/noahbuscher/Macaw/5f9a3cc25294b1e7880fc6d7d2cb6879519ffead.zip",
+            "reference": "5f9a3cc25294b1e7880fc6d7d2cb6879519ffead",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "guzzle/guzzle": "~3.9",
+            "phpunit/phpunit": "^4.8-stable"
+        },
+        "time": "2017-10-25T04:23:11+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "NoahBuscher\\Macaw\\": "./"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Noah Buscher",
+                "email": "me@noahbuscher.com",
+                "homepage": "http://noahbuscher.com/"
+            }
+        ],
+        "description": "Simple PHP router class.",
+        "homepage": "https://github.com/noahbuscher/Macaw",
+        "keywords": [
+            "php",
+            "php-router",
+            "router"
+        ],
+        "abandoned": "noahbuscher/macaw"
     }
 ]

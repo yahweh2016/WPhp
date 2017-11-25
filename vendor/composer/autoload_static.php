@@ -29,6 +29,10 @@ class ComposerStaticInit8089857133f843fa9c96f8c2117384db
             'Psr\\Log\\' => 8,
             'Psr\\Container\\' => 14,
         ),
+        'N' => 
+        array (
+            'NoahBuscher\\Macaw\\' => 18,
+        ),
         'I' => 
         array (
             'Illuminate\\Support\\' => 19,
@@ -74,6 +78,10 @@ class ComposerStaticInit8089857133f843fa9c96f8c2117384db
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'NoahBuscher\\Macaw\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/codingbean/macaw',
         ),
         'Illuminate\\Support\\' => 
         array (

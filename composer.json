@@ -5,6 +5,7 @@
   "keywords": ["php", "Framework"],
   "require": {
     "php": ">=5.5",
+    "codingbean/macaw": "dev-master",
     "filp/whoops": "*",
     "symfony/var-dumper": "*",
     "illuminate/database": "*"

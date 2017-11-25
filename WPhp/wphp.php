@@ -9,22 +9,28 @@ class wphp
     static  public function run()
     {
         \WPHP\lib\log::init();
-        $route           = new \WPhp\lib\route();
-        $controllerClass = $route->controller;
-        $action          = $route->action;
-        $controllerFile  = APP . DS . 'controller' . DS . $controllerClass . 'Controller.php';
-        $controllerClass  = DS . MODULE . DS . 'controller' . DS . $controllerClass . 'Controller';
-        if (is_file($controllerFile))
-        {
-            include $controllerFile;
-            $controller = new $controllerClass();
-            $controller->$action();
-        }
-        else
-        {
-            \WPHP\lib\log::log('找不到控制器' . $controllerClass, '', 'error');
-            throw new \Exception('找不到控制器' . $controllerClass);
-        }
+
+        // 路由配置、开始处理
+        require 'WPhp/config/routes.php';
+
+        // 自写路由
+        // $route           = new \WPhp\lib\route();
+        // $controllerClass = $route->controller;
+        // $action          = $route->action;
+        // $controllerFile  = APP . DS . 'controller' . DS . $controllerClass . 'Controller.php';
+        // $controllerClass  = DS . MODULE . DS . 'controller' . DS . $controllerClass . 'Controller';
+        // if (is_file($controllerFile))
+        // {
+        //     include $controllerClass;
+        //     $controller = new $controllerClass();
+        //     $controller->$action();
+        // }
+        // else
+        // {
+        //     \WPHP\lib\log::log('找不到控制器' . $controllerClass, '', 'error');
+        //     throw new \Exception('找不到控制器' . $controllerClass);
+        // }
+
     }
 
     /**

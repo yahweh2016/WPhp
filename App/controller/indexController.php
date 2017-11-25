@@ -10,6 +10,7 @@ class indexController extends controller
     {
         dump(TModel::get());
         $this->assign('data', 11);
+        $this->assign('fuck_me', 222);
         $this->display('index/index');
 
         // dump(TModel::table('t1')->get());
