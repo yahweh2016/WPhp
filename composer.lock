@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "caf32e18b8b57f87627e3d94fade926b",
+    "content-hash": "00a961edf75933c202d743c5b97b303e",
     "packages": [
         {
             "name": "codingbean/macaw",
@@ -328,6 +328,50 @@
                 "sql"
             ],
             "time": "2017-10-17T12:16:50+00:00"
+        },
+        {
+            "name": "illuminate/pagination",
+            "version": "v5.5.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/pagination.git",
+                "reference": "90e59fedc7d4760db5d85d66a59507ceac0bf354"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/illuminate/pagination/90e59fedc7d4760db5d85d66a59507ceac0bf354.zip",
+                "reference": "90e59fedc7d4760db5d85d66a59507ceac0bf354",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "5.5.*",
+                "illuminate/support": "5.5.*",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Pagination\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Pagination package.",
+            "homepage": "https://laravel.com",
+            "time": "2017-10-13T15:07:13+00:00"
         },
         {
             "name": "illuminate/support",

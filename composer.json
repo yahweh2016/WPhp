@@ -8,6 +8,7 @@
     "codingbean/macaw": "dev-master",
     "filp/whoops": "*",
     "symfony/var-dumper": "*",
-    "illuminate/database": "*"
+    "illuminate/database": "*",
+    "illuminate/pagination": "*"
   }
 }
