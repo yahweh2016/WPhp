@@ -6,5 +6,6 @@
 </head>
 <body>
 <h1><?=$data?></h1>
+<?php echo $fuck_me ?>
 </body>
 </html>
