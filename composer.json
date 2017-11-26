@@ -9,6 +9,7 @@
     "filp/whoops": "*",
     "symfony/var-dumper": "*",
     "illuminate/database": "*",
-    "illuminate/pagination": "*"
+    "illuminate/pagination": "*",
+    "catfan/Medoo": "^1.5"
   }
 }

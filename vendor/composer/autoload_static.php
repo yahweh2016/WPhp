@@ -33,6 +33,10 @@ class ComposerStaticInit8089857133f843fa9c96f8c2117384db
         array (
             'NoahBuscher\\Macaw\\' => 18,
         ),
+        'M' => 
+        array (
+            'Medoo\\' => 6,
+        ),
         'I' => 
         array (
             'Illuminate\\Support\\' => 19,
@@ -83,6 +87,10 @@ class ComposerStaticInit8089857133f843fa9c96f8c2117384db
         'NoahBuscher\\Macaw\\' => 
         array (
             0 => __DIR__ . '/..' . '/codingbean/macaw',
+        ),
+        'Medoo\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/catfan/medoo/src',
         ),
         'Illuminate\\Support\\' => 
         array (

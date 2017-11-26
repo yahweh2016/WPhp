@@ -14,6 +14,7 @@ return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
     'NoahBuscher\\Macaw\\' => array($vendorDir . '/codingbean/macaw'),
+    'Medoo\\' => array($vendorDir . '/catfan/medoo/src'),
     'Illuminate\\Support\\' => array($vendorDir . '/illuminate/support'),
     'Illuminate\\Pagination\\' => array($vendorDir . '/illuminate/pagination'),
     'Illuminate\\Database\\' => array($vendorDir . '/illuminate/database'),
