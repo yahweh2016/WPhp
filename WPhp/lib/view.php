@@ -37,8 +37,8 @@ class view extends wphp
 
     private static function getFilePath($viewName)
     {
-        $filePath = str_replace('/', '\\', str_replace('.', '\\', $viewName));
-        return ROOT . self::VIEW_BASE_PATH . $filePath . '.php';
+        $filePath = str_replace('\\', "/", ROOT . self::VIEW_BASE_PATH . $viewName . '.php');
+        return $filePath;
     }
 
     public function __call($method, $parameters)
